@@ -1,0 +1,7 @@
+{
+  "name": "mymgm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
