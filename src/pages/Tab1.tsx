@@ -12,7 +12,7 @@ const Tab1: React.FC = () => {
   };
 
   return (
-    <IonPage>
+    <IonPage id="tab1-page">
       <IonContent className="ion-padding">
         {/* Your main content here */}
       </IonContent>

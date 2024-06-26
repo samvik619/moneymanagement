@@ -40,4 +40,8 @@
   }
       
     
-    
+  /* Tab1.css */
+#tab1-page {
+  --background: url('../assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

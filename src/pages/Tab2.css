@@ -1,0 +1,13 @@
+.moverit{
+    right: 20px;
+}
+.item.sc-ion-label-md-h, .item .sc-ion-label-md-h       
+{ /* --color: initial; */
+display: block;
+color: #222428;
+font-family: var(--ion-font-family, inherit);
+font-size: inherit;
+text-overflow: ellipsis;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}

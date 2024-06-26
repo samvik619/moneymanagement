@@ -46,6 +46,7 @@ const AddUser: React.FC = () => {
         <form onSubmit={(e) => { e.preventDefault(); addUser(); }}>
           <IonInput
             type="text"
+            color="secondary"
             placeholder="Username"
             value={username}
             onIonInput={(e: any) => setUsername(e.target.value)}
@@ -53,12 +54,14 @@ const AddUser: React.FC = () => {
           />
           <IonInput
             type="email"
+            color="secondary"
             placeholder="Email"
             value={email}
             onIonInput={(e: any) => setEmail(e.target.value)}
             required
           />
            <IonInput
+           color="secondary"
             type="number"
             placeholder="Share"
             value={share}
